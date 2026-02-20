@@ -1,0 +1,14 @@
+{
+  "cron": {
+    "jobs": [
+      {
+        "path": "/api/cron/daily-check",
+        "schedule": "5 21 * * *"
+      },
+      {
+        "path": "/api/cron/weekly-report",
+        "schedule": "0 9 * * 0"
+      }
+    ]
+  }
+}
